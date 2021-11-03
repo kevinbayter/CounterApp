@@ -1,29 +1,14 @@
-body {
-  background-color: #094444a9;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+html, body {
+color: #fff;
+background: #21232a;
+text-align:center;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+button {
+background:#625;
+font-size: 24px;
+margin: 10px;
+padding: 8px;
 }
-
-.CounterApp {
-margin: 5px;
+div{
+margin:auto;
 }
-button{
-  background-color: #4CAF50;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 10%;
-}
-
